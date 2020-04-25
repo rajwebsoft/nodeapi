@@ -1,0 +1,32 @@
+{
+  "name": "rajsoft",
+  "version": "1.0.0",
+  "description": "Node App.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/rajsoft/nodeapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/raju_mgm/rajsoft/issues"
+  },
+  "homepage": "https://gitlab.com/rajsoft/nodeapi#README",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6-alpha.5",
+    "fs": "0.0.1-security",
+    "helmet": "^3.18.0",
+    "http": "0.0.0",
+    "lodash": "^4.17.11",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  }
+}
